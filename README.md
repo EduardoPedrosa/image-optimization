@@ -28,7 +28,7 @@ To run the project, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/EduardoPedrosa/image-optimization.git
    ```
 
 2. Navigate to the project directory:
