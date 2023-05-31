@@ -9,10 +9,11 @@ import (
 	"github.com/aws/aws-sdk-go/aws/credentials"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/s3"
+	"github.com/aws/aws-sdk-go/service/s3/s3iface"
 )
 
 type AwsS3Client struct {
-	svc    *s3.S3
+	svc    s3iface.S3API
 	bucket string
 }
 

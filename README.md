@@ -46,3 +46,12 @@ To run the project, follow these steps:
    ```
 
    Note: Make sure you have Go installed and configured on your machine.
+   
+
+## Testing the Project
+
+To test the project, run this command:
+
+   ```bash
+      go test ./... -cover
+   ```
